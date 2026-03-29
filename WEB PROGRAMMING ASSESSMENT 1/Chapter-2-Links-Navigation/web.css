@@ -1,0 +1,134 @@
+body {    
+    margin: 0px;
+    padding: 0px;
+    background-color: white; /* This sets the background color of the body to white */
+}
+
+.overview {
+    font-size: 40px; /* This sets font size of the text inside the overview class to 40px*/
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    padding: 50px;
+    text-align: center; /* sets the alignment of the overview class to the center*/
+}
+.home {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    padding: 50px;
+    text-align: center; /* sets the alignment of the text to be centered*/
+}
+.overtitle {
+    font-size: 55px; /* This sets the size of the text to 55px */
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+.hometitle {
+    font-size: 55px;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    padding: 30px;
+    text-align: center; /* sets the alignment of the text to be centered*/
+} 
+
+.infotitle {
+    font-size: 55px;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    padding: 30px;
+    text-align: left; /* sets the alignment of the text to left*/
+}
+
+.casttitle {
+    font-size: 55px;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    padding: 30px;
+    text-align: left;
+}
+
+.chartitle {
+    font-size: 55px; /* This sets the size of the text to 55px */
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    padding: 30px;
+    text-align: left; /* sets the alignment of the text to left*/
+}
+.revtitle {
+    font-size: 55px;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    padding: 30px;
+    text-align: left;
+}
+
+.info {
+    font-size: 40px;
+    color: black;
+    margin: 10px;
+    padding: 40px;
+    font-weight: bold; /* This sets the text to bold/thick */
+}
+
+.cast {
+    font-size: 40px; /* This sets the size of the text to 40px */
+    color: black;
+    margin: 10px;
+    padding: 40px;
+    font-weight: bold;
+}
+
+.char {
+    font-size: 40px;
+    color: black;
+    margin: 10px;
+    padding: 40px;
+    font-weight: bold; /* This sets the text to bold/thick */
+}
+
+.rev {
+    font-size: 38px; /* This sets the size of the text to 38px */
+    color: black;
+    margin: 15px;
+    padding: 40px;
+    font-weight: bold;
+}
+
+.btn {
+    text-decoration: underline; /* This adds an underline under the text */
+    font-size: 50px;
+    font-weight: bold; /* This sets the text to bold/thick */
+    display: block;  /* This sets the button to a block which allows centering */
+    margin-left: auto; /* Pushes the element to the right */
+    margin-right: auto;   /* Pushes the element to the left */
+    background-color: #000000;  /* This sets background color of the button to black*/
+    color: rgb(255, 255, 255);
+}
+
+ul {
+  list-style-type: none; /* This either removes the list markers ex. bullets or number on an unordered list*/
+  font-size: 30px;
+  margin: 0px;
+  padding: 10px;
+  overflow: hidden; /* overflow: hidden; keeps the menu items organized inside the box*/
+  background-color: #000000;
+}
+
+ul li {
+  float: left; /* float: left sets the allignment of the nav bar buttons to the left*/
+}
+
+ul li a {
+  display: block; /* this sets the display of the buttons as a block*/
+  color: white;
+  padding: 30px 16px;
+  text-decoration: none; /* This removes any decoration ex. Underline wi*/
+}
+
+ul li a:hover {
+  background-color: #222222; /* This allows the Nav bar buttons to change color to dark gray whenever a mouse cursor/ pointer hovers over a button*/
+}
+

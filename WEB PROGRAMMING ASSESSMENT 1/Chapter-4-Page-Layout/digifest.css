@@ -1,0 +1,206 @@
+body {
+    font-family: "Arial"; font-weight: 400;
+    display: flex; /* This sets the body as a flex container */ 
+    flex-direction: column; /*This makes it so that it stacks the elements vertically */ 
+    margin: 0;
+    min-height: 100vh; /* Makes the body take up the max height of the screen */ 
+}
+
+
+
+header {
+    background-color: #17072b; /* Sets the header background color to dark purple */
+    padding: 20px;
+    color: white;  /* sets the text color to white */
+    
+}
+
+
+
+
+header h1 {
+    text-align: center;  /* This centers the text */
+    font-family: "Tahoma"; font-weight: 700; 
+    font-size: 50px; /* This sets the font size to 50px */
+    text-decoration: underline; 
+
+}
+
+
+
+
+
+
+
+
+nav ul {
+    list-style: none; /*  this removes bullet points from nav links */
+    padding: 0;
+    display: flex; /*this sets nav links in a row */
+    justify-content: center; /* This centers the nav links */
+    gap: 15px; /* This adds spacing between nav links by 15px */
+}
+
+
+
+
+
+nav ul a {
+    color: white;
+  text-decoration: none; /* This removes the underline from the nav links */
+  font-size: 25px; /* sets the font size to 25px */
+}
+
+
+
+main {
+    display: flex;  /* This sets main content as a flex container */
+    flex: 1;  /* This sets the flex size to 1 */
+}
+
+
+
+.welcome {
+  flex: 2; /* This makes the welcome section wider than the sidebar */
+}
+
+
+.lineupbar {
+    background-color: #172d67; /* This sets the background color to dark blue for the sidebar */
+    padding: 20px;
+    color: white;
+    display: flex; /* This makes the display flex */
+    flex-direction: column; /* This stacks sidebar in a vertical position */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex: 1; /* flex: 1 takes ip the remaining space right next to the welcome section */
+}
+
+
+
+
+
+
+
+.welcome h2 {
+    margin-top: 10;
+    text-align: left;
+    text-decoration: underline;
+    font-size: 35px;
+    margin-left: 25px;
+    
+}
+
+.welcome p {
+    color: black;
+    font-family: arial;
+    font-size: 31px;
+    margin-left: 25px;
+}
+
+.imagemain1 img {
+    width: 1200px; /* This sets the width of the image to 1200px */
+    height: 355px; /* This sets the height of the image to 355px */
+    object-fit: cover; /* This crops the image to fit the without it stretching */
+    margin-left: 25px;
+}
+
+
+
+.image1 { 
+    display: flex; /* This sets the display to flex */
+    flex-direction: row; /* This places the two sidebar images side by side */
+    gap: 10px; /* Adds spacing betweem the elements */
+    align-items: flex-start;
+    margin-top: -30px; /* This raises the images up by a little bit */
+    margin-left: 25px;
+}
+
+
+
+.imagebox1 img, .imagebox2 img {
+    width: 280px;   /* This sets the width of the images to 280px */   
+    height: 280px;     /* This sets the height of the images to 280px */      
+    object-fit: cover; /* This crops the image to fit the without the 2 images stretching */
+    display: block; /* This sets the display to a block */
+}
+
+
+
+
+#dashlist {
+    list-style-type: "- "; /* This sets the list style to dash bullet points */
+}
+
+
+.lineupbar h2 {
+    font-size: 45px;
+     margin-left: 10px;
+    margin-right: 30px;
+    text-align: left;
+    text-decoration: underline;
+    margin-top: 0;
+    
+}
+
+#dashlist li {
+    font-size: 25px;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-left: 1px;
+    margin-right: 30px;
+    
+}
+
+
+
+
+footer {
+    background-color: #8c15e9; /* This sets the background color of the footer to purple */
+    text-align: center; /* This sets alignment of the text to be centered */
+    padding: 0px;
+    color: white; /* This sets text color to white */
+    font-size: 20px;
+    font-weight: bold;
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

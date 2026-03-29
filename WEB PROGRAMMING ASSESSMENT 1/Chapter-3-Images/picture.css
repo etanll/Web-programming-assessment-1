@@ -1,0 +1,27 @@
+
+/*Different types of classes to design a specific part */
+.head1 {
+    font-size: 50px;  /* sets the font size of "Mountain Photo Gallery" to 50px */
+    color: black;  /* sets the font color to black */
+    text-align: left; /* alligns the text to the left */
+}
+
+.mountain1 {
+   filter: invert(90%) saturate(180%) contrast(100%) hue-rotate(400deg); /*alters the image colors */
+   border-radius: 10px; /* adds rounded corners to the image */
+   margin-top: 10px; /* adds a margin of 10px to the top of the image */
+   
+}
+.mountain2 {
+   filter: invert(20%) saturate(200%) contrast(120%) hue-rotate(60deg); /*alters the image colors */
+   border-radius: 10px; /* adds rounded corners to the image */
+   margin-top: 10px; /* adds a margin of 10px to the top of the image */
+   
+}
+
+.mountain3 {
+   filter: invert(20%) saturate(200%) contrast(120%) hue-rotate(200deg); /*alters the image colors */
+   border-radius: 10px; /* adds rounded corners to the image */
+   margin-top: 10px; /* adds a margin of 10px to the top of the image */
+   
+}

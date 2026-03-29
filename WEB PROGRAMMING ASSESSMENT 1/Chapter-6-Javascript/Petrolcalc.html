@@ -1,0 +1,25 @@
+<!DOCTYPE html>  <!-- This tells that the file is HTML5 -->
+<html>
+    <head>
+        <title>PETROL CALCULATOR</title>
+        <meta charset="UTF-8"> <!-- sets the encoding to utf-8 -->
+        <link rel="stylesheet" href="Petrolcalc.css">  <!-- This links an external css style to design this file -->
+    </head>
+    <body>
+        <div class="calc">
+            <h1>Petrol Calculator</h1>
+            <label for="Costperliter">Cost per liter (د.إ): </label> <!-- This is a label to linked the cost input -->
+            <input type="number" id="Costperliter" value="1.72" step="0.1"> <!-- This is an input for cost per liter and is set to 1.72 as the default -->
+            <label for="liters">Amount of Liters Bought: </label> <!-- this is a label which is linked to the liters input -->
+            <input type="number" id="Liters" value="0"> <!-- This is an input for liters and is set to 0 as the default -->
+            <button onclick="calc()">CALCULATE</button> <!-- This is a button that activates the calc function -->
+            <p id="res">Total Cost: AED0.00  </p> <!--This displays the output of the calculator -->
+            
+        </div>
+        <script src="Petrolcalc.js"> /*this links an external JavaScript file which allows the calculator to actually work*/
+            
+        </script>
+    </body>
+</html>
+
+

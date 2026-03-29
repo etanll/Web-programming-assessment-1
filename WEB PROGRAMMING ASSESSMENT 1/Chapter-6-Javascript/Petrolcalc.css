@@ -1,0 +1,86 @@
+body {
+    background-color: lightblue;
+    display: flex;  /* This sets the body to a flex container */
+    justify-content: center; /* This centers the body horizontally */
+    align-items: center; /* This centers the body vertically */
+    font-family: 'Segoe UI'; 
+    font-weight: bold; 
+    min-height: 100vh;  /* This makes the body take the max height of the screem */
+}
+
+
+
+.calc {
+    background-color: white;
+    display: flex;  /* This sets the calculator box to a flex container */
+    padding: 50px;
+    margin: 50px;
+    border-radius: 50px; /* This rounds the corners of the box by 50px */
+    gap: 20px;  /* This gives spacing between elements */
+    border-style: solid;
+    border-width: 5px;
+    border-color: blue; /* This sets the color of the border to blue */
+    flex-direction: column; /* This sets the elements inside the calculator box vertically */
+    
+    
+}
+
+* {
+    margin: 0px; /* sets the margin to 0px */
+    padding: 0px; /* sets the padding to 0px */
+    box-sizing: border-box; /* This makes padding and the border included in the size */
+}
+
+input { 
+    padding: 10px; /* This adds spacing inside by 10px */
+    border-style: solid; /* This sets the border line to solid */
+    border-width: 1px; /* This sets the border line weight to 1px */
+    border-color: blue;
+    font-family: 'Segoe UI';
+    font-weight: bold; /* This sets the text to bold/thick*/
+}
+
+
+
+input:focus {
+    background-color: lightblue; /* This changes the input background when it is clicked to light blue */
+    cursor: pointer; /* This allows the input bg to change when clicked */
+}
+
+
+button {
+    border-color: blue;
+    border-radius: 10px; /* This rounds the corners of the button */
+    background-color: white; /* This changes bg color to white when it is inactive and not being hovered over */
+    border-width: 1px;
+    padding: 20px; 
+    font-size: 20px; /* This changes the font size */
+    font-family: 'Segoe UI';
+    font-weight: bold;
+
+}
+
+
+
+button:hover {
+    background-color: lightblue; /* This makes the button change color when you hover over it with a mouse cursor/pointer */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
